@@ -1,74 +1,80 @@
 {
-	"added_words":
-	[
-		"reductant",
-		"ascorbate",
-		"ferricyanide",
-		"nanoliters",
-		"Azurin",
-		"Coli",
-		"azurin",
-		"amine",
-		"sonicated"
-	],
-	"auto_complete_triggers":
-	[
-		{
-			"characters": ".",
-			"selector": "source.python - string - comment - constant.numeric"
-		},
-		{
-			"characters": "\\",
-			"selector": "text.tex.latex"
-		}
-	],
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
-	"file_exclude_patterns":
-	[
-		"*.tmTheme.cache",
-		"*.tmPreferences.cache",
-		"*.tmLanguage.cache",
-		"*.pyc",
-		"*.pyo",
-		"*.exe",
-		"*.dll",
-		"*.obj",
-		"*.o",
-		"*.a",
-		"*.lib",
-		"*.so",
-		"*.dylib",
-		"*.ncb",
-		"*.sdf",
-		"*.suo",
-		"*.pdb",
-		"*.idb",
-		".DS_Store",
-		"*.class",
-		"*.psd",
-		"*.db",
-		"*.hidden",
-		"*.ipynb_checkpoints",
-		"*.aux",
-		"*.toc",
-		"*.synctex.gz",
-		"*.log",
-		"*.out",
-		"*.fls",
-		"*.fdb_latexmk",
-		"*.dvi",
-		"*.bib.bak"
-	],
-	"folder_exclude_patterns":
-	[
-		"*.ipynb_checkpoints",
-		"*.git"
-	],
-	"font_size": 10,
-	"highlight_line": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"theme": "Material-Theme.sublime-theme"
+    "added_words":
+    [
+        "reductant",
+        "ascorbate",
+        "ferricyanide",
+        "nanoliters",
+        "Azurin",
+        "Coli",
+        "azurin",
+        "amine",
+        "sonicated"
+    ],
+    "auto_complete_triggers":
+    [
+        {
+            "characters": ".",
+            "selector": "source.python - string - comment - constant.numeric"
+        },
+        {
+            "characters": "\\",
+            "selector": "text.tex.latex"
+        }
+    ],
+    "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+    "file_exclude_patterns":
+    [
+        "*.tmTheme.cache",
+        "*.tmPreferences.cache",
+        "*.tmLanguage.cache",
+        "*.pyc",
+        "*.pyo",
+        "*.exe",
+        "*.dll",
+        "*.obj",
+        "*.o",
+        "*.a",
+        "*.lib",
+        "*.so",
+        "*.dylib",
+        "*.ncb",
+        "*.sdf",
+        "*.suo",
+        "*.pdb",
+        "*.idb",
+        ".DS_Store",
+        "*.class",
+        "*.psd",
+        "*.db",
+        "*.hidden",
+        "*.ipynb_checkpoints",
+        "*.aux",
+        "*.toc",
+        "*.synctex.gz",
+        "*.log",
+        "*.out",
+        "*.fls",
+        "*.fdb_latexmk",
+        "*.dvi",
+        "*.bib.bak",
+        "*.blg",
+        "*.bbl"
+    ],
+    "folder_exclude_patterns":
+    [
+        "*.ipynb_checkpoints",
+        "*.git"
+    ],
+    "font_size": 11,
+    "highlight_line": true,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "rulers":
+    [
+        80
+    ],
+    "theme": "Adaptive.sublime-theme"
 }

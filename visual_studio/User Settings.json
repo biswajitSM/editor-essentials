@@ -1,8 +1,7 @@
 {
-    "editor.fontFamily": "Sans Serif",// Arial,Bitstream Vera Sans Mono, Monaco, Sans Serif
     "editor.fontSize": 14,
-    "editor.rulers": [140],
-    "workbench.colorTheme": "One Dark Pro",
+    // "editor.rulers": [140],
+    "workbench.colorTheme": "Default Light+",
     "editor.minimap.enabled": false,
     "spellright.suggestionsInHints": false,
     "files.exclude":{
@@ -43,7 +42,31 @@
         "**/*.blg": true,
         "**/*.sublime-project": true,
         "**/*.sublime-workspace": true,
-        "**/*.dtx": true
+        "**/*.dtx": true,
+        "**/*__pycache__": true
     },
-    "window.zoomLevel": 0
+    "editor.rulers": [80, 120],
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "material-icon-theme",
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": false,
+        "suppressWelcomeNotice": true
+    },
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "gitlens.keymap": "chorded",
+    "gitlens.historyExplorer.enabled": true,
+    "latex-workshop.view.pdf.viewer": "/usr/bin/evince",
+    "latex-workshop.latex.autoBuild.onSave.enabled": false,
+    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false
 }
